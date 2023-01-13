@@ -28,27 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.flappyBird = new System.Windows.Forms.PictureBox();
+            this.groundBase = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.flappyBird)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groundBase)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // flappyBird
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(3, 388);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(785, 50);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.flappyBird.Image = global::FlappyBirdforms.Properties.Resources.blue_bird___wings_down;
+            this.flappyBird.Location = new System.Drawing.Point(138, 138);
+            this.flappyBird.Name = "flappyBird";
+            this.flappyBird.Size = new System.Drawing.Size(34, 24);
+            this.flappyBird.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.flappyBird.TabIndex = 1;
+            this.flappyBird.TabStop = false;
             // 
-            // pictureBox2
+            // groundBase
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(138, 138);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.groundBase.Image = global::FlappyBirdforms.Properties.Resources._base;
+            this.groundBase.Location = new System.Drawing.Point(3, 365);
+            this.groundBase.Name = "groundBase";
+            this.groundBase.Size = new System.Drawing.Size(785, 73);
+            this.groundBase.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.groundBase.TabIndex = 0;
+            this.groundBase.TabStop = false;
             // 
             // Form1
             // 
@@ -56,21 +60,22 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSkyBlue;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.flappyBird);
+            this.Controls.Add(this.groundBase);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Flappy Bird";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.flappyBird)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groundBase)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox groundBase;
+        private System.Windows.Forms.PictureBox flappyBird;
     }
 }
 
