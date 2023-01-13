@@ -16,5 +16,26 @@ namespace FlappyBirdforms
         {
             InitializeComponent();
         }
+
+        int gravity = 10;
+
+        private void Form1_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Space)
+                gravity = 15;
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Space)
+                gravity = -15;
+            else if (e.KeyCode == Keys.Enter)
+                timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            flappyBird.Top += gravity;
+        }
     }
 }
