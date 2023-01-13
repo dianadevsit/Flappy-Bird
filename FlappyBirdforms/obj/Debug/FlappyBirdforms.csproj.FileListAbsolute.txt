@@ -1,0 +1,10 @@
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\bin\Debug\FlappyBirdforms.exe.config
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\bin\Debug\FlappyBirdforms.exe
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\bin\Debug\FlappyBirdforms.pdb
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.csproj.AssemblyReference.cache
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.csproj.SuggestedBindingRedirects.cache
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.Properties.Resources.resources
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.csproj.GenerateResource.cache
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.csproj.CoreCompileInputs.cache
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.exe
+C:\Users\diana\source\repos\FlappyBirdforms\FlappyBirdforms\obj\Debug\FlappyBirdforms.pdb
