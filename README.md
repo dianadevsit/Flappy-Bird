@@ -6,7 +6,8 @@ Created with C# forms in VS
 A very mini game to mimic the original game of flappy bird. Instructions on how to play:
 - Press enter to begin
 - Space to keep him away from the pipes
+- Upon reaching past the pipes the score will automaticlly update
 
-Link to play here: 
+
 
 
